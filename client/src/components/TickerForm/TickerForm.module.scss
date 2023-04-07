@@ -1,0 +1,26 @@
+.ticker__form{
+  display: flex;
+  gap: 2rem;
+}
+.add__ticker__input{
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  padding: 12px 20px 12px 50px;
+  width: 400px;
+}
+.error__message{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: crimson;
+}
+@media(max-width: 685px){
+  .ticker__form{
+    flex-direction: column;
+  }
+  .add__ticker__input{
+    width: 100%;
+  }
+}

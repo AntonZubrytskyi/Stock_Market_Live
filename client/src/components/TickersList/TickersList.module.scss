@@ -1,0 +1,31 @@
+.list {
+  margin: 4rem 4rem 0;
+
+  &__container {
+    border-radius: 8px;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(35 55 80 / 30%) 0px 6px 12px;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  &__info {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 400px) {
+  .list {
+    &__container {
+      box-shadow: none;
+    }
+  }
+}

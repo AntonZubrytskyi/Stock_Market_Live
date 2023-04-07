@@ -1,0 +1,51 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+
+  &__auth {
+    background-color: #005382;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 12px 15px;
+    font-weight: 600;
+    font-size: 17px;
+    min-width: fit-content;
+    & span {
+      margin-right: 20px;
+    }
+  }
+
+  &__add__ticker {
+    background-color: #fff;
+    border: 2px solid #005382;
+    border-radius: 5px;
+    color: #005382;
+    font-size: 17px;
+    font-weight: 600;
+    height: 50px;
+    transition: .8s;
+    padding: 1rem;
+    min-width: fit-content;
+
+    &:hover {
+      background-color: #005382;
+      border: none;
+      color: #fff;
+    }
+  }
+
+  &__remove__ticker {
+    padding: 0.75rem;
+    font-weight: 600;
+    color: white;
+    background: rgb(10, 20, 110);
+    border-radius: 8px;
+  }
+}
