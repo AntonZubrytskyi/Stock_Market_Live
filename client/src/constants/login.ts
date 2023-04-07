@@ -1,4 +1,4 @@
-const clientId = '757230908732-kcgd96u4meo7cdhb11gr3fhbepjhmtsu.apps.googleusercontent.com';
+const clientId = process.env.REACT_APP_LOGIN_KEY || 'test';
 export { clientId };
 export const tickers = [
   'AAPL',
